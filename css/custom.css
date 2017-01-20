@@ -1,0 +1,18 @@
+/*Css Codes for the Website */
+*{
+    margin:0 auto;
+}
+html,
+body,
+header,
+main,
+footer{
+    margin:0 auto;
+    padding:0px;
+}
+.brand-logo{
+    margin-left:8px;
+    font-size:16px;
+    font-family:"Open Sans",sans-serif;
+    padding:0px 0px 0px 0px;
+}
