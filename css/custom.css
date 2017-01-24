@@ -10,9 +10,22 @@ footer{
     margin:0 auto;
     padding:0px;
 }
+nav{
+    -webkit-border-radius:0px;
+    -moz-border-radius:0px;
+    border-radius:0px;
+}
 .brand-logo{
     margin-left:8px;
     font-size:16px;
     font-family:"Open Sans",sans-serif;
     padding:0px 0px 0px 0px;
+}
+
+/* Styling the Body of the index page*/
+#slider_main{
+    margin-top:10px;
+    margin-left:0px;
+    margin-right:0px;
+
 }
