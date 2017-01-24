@@ -24,8 +24,61 @@ nav{
 
 /* Styling the Body of the index page*/
 #slider_main{
-    margin-top:10px;
+    margin-top:-1px;
     margin-left:0px;
     margin-right:0px;
 
+}
+.slider .indicators{
+    bottom:60px;
+    z-index: 100;
+}
+.slider .indicators .indicator-item.active{
+    background-color:#424242;
+}
+ul.slides li{
+    height:570px;
+    margin-bottom:0;
+}
+#about_explore{
+    height:200px;
+    background:url("../images/aa.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+#skill_set{
+    height:200px;
+    background:url("../images/skill.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+#gallery_set{
+    height:200px;
+    background:url("../images/gallery.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+#services_set{
+    height:200px;
+    background:url("../images/aa.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.pos{
+    margin-right:20px;
+    margin-top:5px;
+}
+#about_button,#skill_button,#gallery_button,#services_button{
+    font-size: 14px;
+    padding-bottom: 5px;
+    padding-top:-10px;
+    text-align: center;
+    font-family:'Open Sans',sans-serif;
+    border:1px solid cornflowerblue;
+    text-transform: capitalize;
+    margin-top:-8px;
 }
