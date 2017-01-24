@@ -82,3 +82,40 @@ ul.slides li{
     text-transform: capitalize;
     margin-top:-8px;
 }
+#person_logo{
+    position: absolute;
+    -webkit-border-radius:50%;
+    -moz-border-radius:50%;
+    border-radius:50%;
+    width:125px;
+    height:125px;
+    background: url("../images/aa.jpg");
+    -webkit-background-size:cover;
+    background-size:cover;
+    /*-webkit-animation-name: FlipX;*/
+    /*-moz-animation-name: FlipX;*/
+    /*-o-animation-name: FlipX;*/
+    /*animation-name: FlipX;*/
+    /*-webkit-animation-duration: 1s;*/
+    /*-moz-animation-duration: 1s;*/
+    /*-o-animation-duration: 1s;*/
+    /*animation-duration: 1s;*/
+    /*animation-delay: 1s;*/
+    /*-webkit-animation:FlipX;*/
+    /*-o-animation:FlipX;*/
+    /*animation:FlipX 3000ms;*/
+    /*-webkit-animation-direction: alternate;*/
+    /*-moz-animation-direction: alternate;*/
+    /*-o-animation-direction: alternate;*/
+    /*animation-direction: alternate;;*/
+}
+#person_body{
+    margin-top:60px;
+    background-color: #eeeeee;
+}
+div.content{
+    margin-top:50px;
+}
+div.content>p{
+    font-size:16px;
+}
