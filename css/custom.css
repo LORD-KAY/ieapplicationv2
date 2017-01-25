@@ -7,6 +7,7 @@ body,
 header,
 main,
 footer{
+    font-family:'Open Sans',sans-serif;
     margin:0 auto;
     padding:0px;
 }
@@ -15,10 +16,14 @@ nav{
     -moz-border-radius:0px;
     border-radius:0px;
 }
+nav ul li.active{
+    background-color:black;
+}
 .brand-logo{
     margin-left:8px;
     font-size:16px;
     font-family:"Open Sans",sans-serif;
+    font-weight: 600;
     padding:0px 0px 0px 0px;
 }
 
@@ -118,4 +123,45 @@ div.content{
 }
 div.content>p{
     font-size:16px;
+}
+div.gallery-header{
+    font-size:16px;
+}
+div.chip{
+    cursor: pointer;
+}
+.tabs .tab a:hover, .tabs .tab a.active{
+    background-color: transparent;
+    color: #757575 !important;
+}
+.tabs .tab a{
+    color:#757575 !important;
+}
+.tabs .indicator{
+    background-color:#424242 !important;
+}
+.frame{
+    height: 200px;
+    width: 240px;
+    overflow: hidden;
+}
+.zoomin img{
+    -webkit-transition: all 1s ease; /* Safari and Chrome */
+    -moz-transition: all 1s ease; /* Firefox */
+    -ms-transition: all 1s ease; /* IE 9 */
+    -o-transition: all 1s ease; /* Opera */
+    transition: all 1s ease;
+}
+.zoomin img:hover{
+    -webkit-transform:scale(1.25); /* Safari and Chrome */
+    -moz-transform:scale(1.25); /* Firefox */
+    -ms-transform:scale(1.25); /* IE 9 */
+    -o-transform:scale(1.25); /* Opera */
+    transform:scale(1.25);
+    -webkit-transition: all 1s ease; /* Safari and Chrome */
+    -moz-transition: all 1s ease; /* Firefox */
+    -ms-transition: all 1s ease; /* IE 9 */
+    -o-transition: all 1s ease; /* Opera */
+    transition: all 1s ease;
+
 }
