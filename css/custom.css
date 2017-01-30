@@ -47,30 +47,22 @@ ul.slides li{
 }
 #about_explore{
     height:200px;
-    background:url("../images/aa.jpg");
-    background-repeat: no-repeat;
-    background-position: center;
+    background: url("../images/aa.jpg") no-repeat center;
     background-size: cover;
 }
 #skill_set{
     height:200px;
-    background:url("../images/skill.jpg");
-    background-repeat: no-repeat;
-    background-position: center;
+    background: url("../images/skill.jpg") no-repeat center;
     background-size: cover;
 }
 #gallery_set{
     height:200px;
-    background:url("../images/gallery.jpg");
-    background-repeat: no-repeat;
-    background-position: center;
+    background: url("../images/gallery.jpg") no-repeat center;
     background-size: cover;
 }
 #services_set{
     height:200px;
-    background:url("../images/aa.jpg");
-    background-repeat: no-repeat;
-    background-position: center;
+    background: url("../images/aa.jpg") no-repeat center;
     background-size: cover;
 }
 .pos{
@@ -141,8 +133,13 @@ div.chip{
     background-color:#424242 !important;
 }
 .frame{
-    height: 200px;
-    width: 240px;
+    height: 240px;
+    width:280px;
+    overflow: hidden;
+}
+.wallpaper-frame{
+    height:350px;
+    width:100%;
     overflow: hidden;
 }
 .zoomin img{
@@ -164,4 +161,55 @@ div.chip{
     -o-transition: all 1s ease; /* Opera */
     transition: all 1s ease;
 
+}
+img.wallpaper{
+  margin-top:-15px;
+}
+
+/* Skill Set and Services Codes */
+p.skill_text{
+    font-size:20px;
+    margin-top:10px;
+}
+p.skill_body{
+    font-size:16px;
+    margin-top:15px;
+}
+
+/* Codes for the contact pane */
+section#contact_form{
+    margin-top:40px;
+}
+.input-field .prefix{
+    color: #BEBEBE;
+}
+input[type="text"]:focus:not([readonly]) + label{
+    color: #424242;
+}
+/*.input-field input[type="text"]:focus{*/
+    /*border-bottom:2px solid #424242;*/
+/*}*/
+.input-field .prefix.active{
+    color: #424242;
+}
+button.submit{
+    margin-left:56px;
+}
+div.info_margin{
+    margin-left:21px;
+}
+div.divider{
+    margin-bottom:5px;
+    margin-top: 3px;
+}
+/* Codes for the Footer Stylings*/
+ul.footer-links{
+    margin-left:28px;
+}
+ul.footer-links li{
+    list-style: none none;
+    text-decoration: none;
+}
+ul.footer-links li a{
+    color:white;
 }

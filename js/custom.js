@@ -3,4 +3,10 @@ $(document).ready(function(){
         full_width:true,
         height:570
     });
+    $('.button-collapse').sideNav({
+        menuWidth:300,
+        edge:'left',
+        closeOnClick:true,
+        draggable:true
+    });
 });
