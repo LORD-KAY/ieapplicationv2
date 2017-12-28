@@ -1,6 +1,6 @@
-The MIT License (MIT)
+MIT License
 
-Copyright (c) 2014-2016 Materialize
+Copyright (c) 2017 Lord Kay
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
@@ -19,29 +19,3 @@ AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
 LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
-
-       <div class="carousel carousel-slider center" data-indicators="true">
-                           <div class="carousel-fixed-item center">
-                               <a href="#" class="btn waves-effect waves-light grey darken-2">Explore</a>
-                           </div>
-                           <div class="carousel-item red white-text" href="#one!">
-                               <h2>Carousel One</h2>
-                               <p class="white-text">First Carousel Slider for the Slide Show</p>
-                           </div>
-                           <div class="carousel-item blue white-text" href="#two!">
-                               <h2>Carousel Two</h2>
-                               <p class="white-text">Second Carousel Slider for the Slide Show</p>
-                           </div>
-                           <div class="carousel-item grey darken-2 white-text" href="#three!">
-                               <h2>Carousel Three</h2>
-                               <p class="white-text">Third Carousel Slider for the Slide Show</p>
-                           </div>
-                           <div class="carousel-item purple lighten-3" href="#four">
-                               <h2>Carousel Four</h2>
-                               <p class="white-text">Forth Carousel Slider for the Slide Show</p>
-                           </div>
-                           <div class="carousel-item pink lighten-3" href="#five">
-                               <h2>Carousel Five</h2>
-                               <p class="white-text">Fifth Carousel Slider for the Slide Show</p>
-                           </div>
-                       </div>
